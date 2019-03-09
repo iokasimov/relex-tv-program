@@ -13,12 +13,6 @@ import "text" Data.Text (Text)
 import qualified "containers" Data.Map.Lazy as Map (lookup)
 import qualified "xml-conduit" Text.XML as XML (readFile)
 
---------------------------------------------------------------------------------
-
-import "lens" Control.Lens (Prism')
-
---------------------------------------------------------------------------------
-
 data Hour = AM Int | PM Int deriving Show
 
 hour :: Prism' Int Hour
@@ -33,8 +27,6 @@ hour = prism' from to where
 	to h@(flip elem [13..24] -> True) = Just . PM $ h - 12
 	to _  = Nothing
 
---------------------------------------------------------------------------------
-
 newtype Minute = Minute Int deriving Show
 
 minute :: Prism' Int Minute
@@ -45,8 +37,6 @@ minute = prism' from to where
 
 	to :: Int -> Maybe Minute
 	to m@(flip elem [0..59] -> True) = Just . Minute $ m
-
---------------------------------------------------------------------------------
 
 data Program = Program
 	{ title :: String
@@ -67,29 +57,39 @@ data Week = Week
 	, friday :: [Channel]
 	, saturday :: [Channel]
 	, sunday :: [Channel]
-	}
+	} deriving Show
 
 elements :: Element -> [Element]
 elements e = (preview _Element) <$> (e ^. nodes) &
 	foldr (\x acc -> maybe acc (flip (:) acc) x) []
 
 contents :: Element -> [Text]
-contents e = foldr (\x acc -> maybe acc (flip (:) acc) x) [] $
-	(preview _Content) <$> (e ^. nodes)
+contents e = (preview _Content) <$> (e ^. nodes) &
+	foldr (\x acc -> maybe acc (flip (:) acc) x) []
 
 extract_day_of_week :: Text -> [Element] -> Maybe Element
 extract_day_of_week day = find ((==) (Just day) . Map.lookup "id" . elementAttributes)
 
-extract_channels day =
-	fmap parse_channel $ filter ((==) "div" . view name) $ elements day
+extract_channels :: Element -> [Channel]
+extract_channels = foldr (\x acc -> maybe acc (flip (:) acc) x) []
+	. fmap parse_channel . filter ((==) "div" . view name) . elements
 
 parse_channel :: Element -> Maybe Channel
 parse_channel e = Channel
 	<$> (fmap (mconcat . contents) $ find ((==) "h3" . view name) $ elements e)
 	<*> Just []
 
+parse_week :: [Element] -> Maybe Week
+parse_week days = Week
+	<$> (extract_channels <$> extract_day_of_week "monday" days)
+	<*> (extract_channels <$> extract_day_of_week "tuesday" days)
+	<*> (extract_channels <$> extract_day_of_week "wednesday" days)
+	<*> (extract_channels <$> extract_day_of_week "thursday" days)
+	<*> (extract_channels <$> extract_day_of_week "friday" days)
+	<*> (extract_channels <$> extract_day_of_week "saturday" days)
+	<*> (extract_channels <$> extract_day_of_week "sunday" days)
+
 main = do
 	doc <- XML.readFile def "tv.html"
-	let Just monday = extract_day_of_week "monday" $
-		doc ^.. root ./ named "body" ./ attributeIs "id" "content" ./ attributeIs "class" "day"
-	print $ extract_channels monday
+	let days = doc ^.. root ./ named "body" ./ attributeIs "id" "content" ./ attributeIs "class" "day"
+	print $ parse_week days
