@@ -1,0 +1,2074 @@
+[
+ {
+  "channels": [
+   {
+    "channel": "Yle 1",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Ylen aamu tv",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   },
+   {
+    "channel": "Yle 2",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   },
+   {
+    "channel": "MTV 3",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   }
+  ],
+  "day": "Monday"
+ },
+ {
+  "channels": [
+   {
+    "channel": "Yle 1",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Ylen aamu tv",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   },
+   {
+    "channel": "Yle 2",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   },
+   {
+    "channel": "MTV 3",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   }
+  ],
+  "day": "Tuesday"
+ },
+ {
+  "channels": [
+   {
+    "channel": "Yle 1",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Ylen aamu tv",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   },
+   {
+    "channel": "Yle 2",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   },
+   {
+    "channel": "MTV 3",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   }
+  ],
+  "day": "Wednesday"
+ },
+ {
+  "channels": [
+   {
+    "channel": "Yle 1",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Ylen aamu tv",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   },
+   {
+    "channel": "Yle 2",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   },
+   {
+    "channel": "MTV 3",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   }
+  ],
+  "day": "Thursday"
+ },
+ {
+  "channels": [
+   {
+    "channel": "Yle 1",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Ylen aamu tv",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   },
+   {
+    "channel": "Yle 2",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   },
+   {
+    "channel": "MTV 3",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   }
+  ],
+  "day": "Friday"
+ },
+ {
+  "channels": [
+   {
+    "channel": "Yle 1",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Ylen aamu tv",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   },
+   {
+    "channel": "Yle 2",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   },
+   {
+    "channel": "MTV 3",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   }
+  ],
+  "day": "Saturday"
+ },
+ {
+  "channels": [
+   {
+    "channel": "Yle 1",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Ylen aamu tv",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   },
+   {
+    "channel": "Yle 2",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   },
+   {
+    "channel": "MTV 3",
+    "programming": [
+     {
+      "name": "Yle uutiset",
+      "timeslot": "02:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "03:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "04:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "05:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "06:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "07:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "08:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "09:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "10:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "11:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "12:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "13:00"
+     },
+     {
+      "name": "Kauhea kankkunen",
+      "timeslot": "14:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "15:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "16:00"
+     },
+     {
+      "name": "Dokumentti",
+      "timeslot": "17:00"
+     },
+     {
+      "name": "Puoli seitsemän",
+      "timeslot": "18:00"
+     },
+     {
+      "name": "Pikku kakkonen",
+      "timeslot": "19:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "20:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "21:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "22:00"
+     },
+     {
+      "name": "Yle uutiset",
+      "timeslot": "23:00"
+     }
+    ]
+   }
+  ],
+  "day": "Sunday"
+ }
+]

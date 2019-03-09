@@ -1,10 +1,11 @@
 module TV.Program (Program (..)) where
 
+import "text" Data.Text (Text)
+
 import TV.Hour (Hour)
 import TV.Minute (Minute)
 
 data Program = Program
-	{ title :: String
+	{ title :: Text
 	, start :: (Hour, Minute)
-	, end :: (Hour, Minute)
 	} deriving Show
