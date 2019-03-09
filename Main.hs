@@ -13,51 +13,11 @@ import "text" Data.Text (Text)
 import qualified "containers" Data.Map.Lazy as Map (lookup)
 import qualified "xml-conduit" Text.XML as XML (readFile)
 
-data Hour = AM Int | PM Int deriving Show
-
-hour :: Prism' Int Hour
-hour = prism' from to where
-
-	from :: Hour -> Int
-	from (AM hour) = hour
-	from (PM hour) = hour
-
-	to :: Int -> Maybe Hour
-	to h@(flip elem [1..12] -> True) = Just . AM $ h
-	to h@(flip elem [13..24] -> True) = Just . PM $ h - 12
-	to _  = Nothing
-
-newtype Minute = Minute Int deriving Show
-
-minute :: Prism' Int Minute
-minute = prism' from to where
-
-	from :: Minute -> Int
-	from (Minute m) = m
-
-	to :: Int -> Maybe Minute
-	to m@(flip elem [0..59] -> True) = Just . Minute $ m
-
-data Program = Program
-	{ title :: String
-	, start :: (Hour, Minute)
-	, end :: (Hour, Minute)
-	} deriving Show
-
-data Channel = Channel
-	{ channel :: Text
-	, programs :: [Program]
-	} deriving Show
-
-data Week = Week
-	{ monday :: [Channel]
-	, tuesday :: [Channel]
-	, wednesday :: [Channel]
-	, thursday :: [Channel]
-	, friday :: [Channel]
-	, saturday :: [Channel]
-	, sunday :: [Channel]
-	} deriving Show
+import TV.Hour (Hour, hour)
+import TV.Minute (Minute, minute)
+import TV.Program (Program)
+import TV.Channel (Channel (Channel))
+import TV.Week (Week (Week))
 
 elements :: Element -> [Element]
 elements e = (preview _Element) <$> (e ^. nodes) &
@@ -90,6 +50,6 @@ parse_week days = Week
 	<*> (extract_channels <$> extract_day_of_week "sunday" days)
 
 main = do
-	doc <- XML.readFile def "tv.html"
+	doc <- XML.readFile def "Temporary/tv.html"
 	let days = doc ^.. root ./ named "body" ./ attributeIs "id" "content" ./ attributeIs "class" "day"
 	print $ parse_week days

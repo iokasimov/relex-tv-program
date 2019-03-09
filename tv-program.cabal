@@ -17,15 +17,15 @@ source-repository head
   type: git
   location: https://github.com/iokasimov/tv-program.git
 
--- library
---   build-depends: base == 4.*, pandora, xml-lens
---   exposed-modules:
---   default-language: Haskell2010
---   ghc-options: -fno-warn-tabs
---   default-extensions: LiberalTypeSynonyms, NoImplicitPrelude, TypeOperators, PackageImports
+library
+  build-depends: base == 4.*, containers, text, data-default-class, lens, xml-conduit, xml-lens
+  exposed-modules: TV.Hour, TV.Minute, TV.Program
+  default-language: Haskell2010
+  ghc-options: -fno-warn-tabs
+  default-extensions: LiberalTypeSynonyms, OverloadedStrings, TypeOperators, PackageImports, ViewPatterns
 
 executable parse
   main-is: Main.hs
-  build-depends: base == 4.*, containers, text, data-default-class, lens, xml-conduit, xml-lens
+  build-depends: tv-program, base == 4.*, containers, text, data-default-class, lens, xml-conduit, xml-lens
   default-extensions: LiberalTypeSynonyms, OverloadedStrings, TypeOperators, PackageImports, ViewPatterns
   ghc-options: -fno-warn-tabs
