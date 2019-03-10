@@ -4,7 +4,6 @@ import "base" Control.Monad (join)
 import "base" Data.Foldable (find)
 import "base" Data.Function ((&))
 import "base" Data.Maybe (isJust)
-import "base" Text.Read (readMaybe)
 import "data-default-class" Data.Default.Class (Default (def))
 import "lens" Control.Lens (Prism', view, preview, element, (^.), (^?), prism', toListOf)
 import "xml-lens" Text.XML.Lens (Element (..), Name (..), Node (..), (^..), (./)
@@ -15,8 +14,7 @@ import "text" Data.Text (Text, unpack)
 import qualified "containers" Data.Map.Lazy as Map (fromList, lookup)
 import qualified "xml-conduit" Text.XML as XML (readFile)
 
-import TV.Hour (Hour, hour)
-import TV.Minute (Minute, minute)
+import TV.Timeslot (Timeslot (Timeslot), parse_timeslot)
 import TV.Program (Program (Program))
 import TV.Channel (Channel (Channel))
 import TV.Week (Week (Week, monday))
@@ -58,15 +56,10 @@ parse_week days = Week
 parse_program :: Element -> Maybe Program
 parse_program e = Program
 	<$> items ^? element 1
-	<*> (items ^? element 0 >>= parse_day_of_time . unpack) where
+	<*> (items ^? element 0 >>= parse_timeslot . unpack) where
 
 	items :: [Text]
 	items = join . fmap contents . elements $ e
-
-parse_day_of_time :: String -> Maybe (Hour, Minute)
-parse_day_of_time (h1 : h2 : ':' : m1 : m2 : []) = (,)
-	<$> (preview hour =<< readMaybe (h1 : h2 : []))
-	<*> (preview minute =<< readMaybe (m1 : m2 : []))
 
 main = do
 	doc <- XML.readFile def "Temporary/tv.html"

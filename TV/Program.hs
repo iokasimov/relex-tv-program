@@ -1,11 +1,14 @@
 module TV.Program (Program (..)) where
 
-import "text" Data.Text (Text)
+import "aeson" Data.Aeson (ToJSON (toJSON), object, (.=))
+import "text" Data.Text (Text, pack)
 
-import TV.Hour (Hour)
-import TV.Minute (Minute)
+import TV.Timeslot (Timeslot)
 
 data Program = Program
 	{ title :: Text
-	, start :: (Hour, Minute)
+	, timeslot :: Timeslot
 	} deriving Show
+
+instance ToJSON Program where
+	toJSON c = object ["name" .= title c, "timeslot" .= (pack . show . timeslot $ c)]
