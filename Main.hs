@@ -1,18 +1,17 @@
 module Main where
 
-import "base" Control.Monad (join)
+import "aeson" Data.Aeson (encode)
 import "base" Data.Foldable (find)
 import "base" Data.Function ((&))
-import "base" Data.Maybe (isJust)
 import "data-default-class" Data.Default.Class (Default (def))
-import "lens" Control.Lens (Prism', view, preview, element, (^.), (^?), prism', toListOf)
+import "lens" Control.Lens (Prism', view, preview, element, (^.), (^?))
 import "xml-lens" Text.XML.Lens (Element (..), Name (..), Node (..), (^..), (./)
-	, attribute, attributeIs, root, elementName, el, nodes
-	, prologue, name, named, entire, text, _Element, _Content)
+	, attributeIs, root, nodes, name, named, entire, text, _Element, _Content)
 import "text" Data.Text (Text, unpack)
 
 import qualified "containers" Data.Map.Lazy as Map (fromList, lookup)
 import qualified "xml-conduit" Text.XML as XML (readFile)
+import qualified "bytestring" Data.ByteString.Lazy as Lazybytes (writeFile)
 
 import TV.Timeslot (Timeslot (Timeslot), parse_timeslot)
 import TV.Program (Program (Program))
@@ -59,9 +58,10 @@ parse_program e = Program
 	<*> (items ^? element 0 >>= parse_timeslot . unpack) where
 
 	items :: [Text]
-	items = join . fmap contents . elements $ e
+	items = e ^.. entire >>= contents
 
 main = do
 	doc <- XML.readFile def "Temporary/tv.html"
 	let days = doc ^.. root ./ named "body" ./ attributeIs "id" "content" ./ attributeIs "class" "day"
-	print . parse_week $ days
+	parse_week days & maybe (print "Parsing TV listing is failed")
+		(Lazybytes.writeFile "Temporary/result.json" . encode)

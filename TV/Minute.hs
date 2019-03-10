@@ -2,7 +2,12 @@ module TV.Minute (Minute, minute) where
 
 import "lens" Control.Lens (Prism', prism')
 
-newtype Minute = Minute Int deriving Show
+newtype Minute = Minute Int
+
+instance Show Minute where
+	show (Minute m) = case show m of
+		[c] -> '0':[c]
+		cs -> cs
 
 minute :: Prism' Int Minute
 minute = prism' from to where
